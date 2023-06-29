@@ -1,12 +1,9 @@
 mkdir database/migrations
 echo "nhấn enter tiếp tục"
-pause
-compopser update
+composer update
 echo "nhấn enter tiếp tục"
-pause
 cp modules/Auth/src/Http/Controllers/AuthRouteMethods.php vendor/laravel/ui/src
 echo "nhấn enter tiếp tục"
-pause
 mv .env_local .env
 echo "hoàn thành cài đặt"
 echo "Cài đặt table user"
