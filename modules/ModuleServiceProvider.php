@@ -11,16 +11,8 @@ class ModuleServiceProvider extends ServiceProvider
     }
     private $middlewares = [
         // add middleware
-        'auth.middleware' => \Modules\Auth\src\Http\Middlewares\Auth::class,
-        'authencation.middleware' => \Modules\Authencation\src\Http\Middlewares\Authencation::class,
-        'abc.middleware' => \Modules\Abc\src\Http\Middlewares\Abc::class,
-        'categories.middleware' => \Modules\Categories\src\Http\Middlewares\Categories::class,
-        'admin.middleware' => \Modules\Admin\src\Http\Middlewares\Admin::class,
-        'website.middleware' => \Modules\Website\src\Http\Middlewares\Website::class,
-        'dashboard.middleware' => \Modules\Dashboard\src\Http\Middlewares\Dashboard::class,
-        'users.middleware' => \Modules\Users\src\Http\Middlewares\Users::class,
-        'products.middleware' => \Modules\Products\src\Http\Middlewares\Products::class,
-        'options.middleware' => \Modules\Options\src\Http\Middlewares\Options::class,
+        'auth.middleware' => \Modules\Auth\src\Http\Middlewares\Auth::class,    
+        'admin.middleware' => \Modules\Admin\src\Http\Middlewares\Admin::class,        
     ];
     private $commands = [
         // TestCommand::class
