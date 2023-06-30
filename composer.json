@@ -62,7 +62,7 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
-        "cache-dir": "/home1/nhathhmd/public_html/laravel/laravel-8-origin/cache"
+        "cache-dir": "/home1/nhathhmd/public_html/laravel/app-laravel/cache"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
